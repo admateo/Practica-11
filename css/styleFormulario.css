@@ -1,0 +1,150 @@
+body{
+	background-color: #E8E8E8;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	
+}
+/* HEADER */
+
+header{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	background-color: rgb(62, 80, 180);
+	padding: 12px;
+	text-align: center;
+}
+
+#container{
+	text-align: center;
+}
+
+h1{
+	margin: 0;
+	color: white;
+}
+
+header input{
+	border: 1px solid #aaa;
+    border-radius: 20px;
+    outline: none;
+}
+
+#dentroInput{
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#titulo{
+	padding-left: 8px;
+	font-size: 24px;
+    margin: 17px 0;
+}
+
+form div + div{
+	margin-top: 1rem;
+}
+
+label {
+  display: inline-block;
+  width: 190px;
+}
+
+input{
+	outline: none;
+	padding: 10px;
+	width: 180px;
+}
+
+textarea{
+	width: 180px;
+	overflow: hidden;
+	resize: none;
+	outline: none;
+	padding: 10px;
+}
+
+input, textarea { 
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #555;
+}
+
+input:focus:invalid, textarea:focus:invalid {
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+
+input:required:valid, textarea:required:valid {
+    box-shadow: 0 0 5px #52B225;
+    border-color: #28921f;
+}
+
+#crear{
+	outline: none;
+	background-color: #272f32;
+    border: 1px solid #272f32;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 0 0 #000000;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#crear:active {
+    background: radial-gradient(#272f32, #1B1F20, #0F1011); /* Standard syntax */
+}
+
+#botones{
+	padding-right: 4px;
+	height: 25px;
+	width: 25px;
+}
+
+#articulos{
+	padding: 0 8px;
+}
+
+/* FOOTER */
+footer{
+	height: 70px;
+	background-color: #272f32;
+	padding: 12px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer ul {
+	margin: 0;
+}
+
+footer ul li{
+	padding-bottom: 7px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer img{
+	width: 64px;
+	height: 64px;
+	margin-right: 30px;
+	transition:all 0.5s;
+}
+
+footer img:hover{
+	transform: scale(1.1);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>David Mateo Cuenca</title>
+		<link rel="stylesheet" href="../css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="../css/styleFormulario.css">
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Roboto');
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Magic Task Manager</h1>
+		</header>
+		<div id="container">
+			<main>
+				<section>
+					<div id="titulo">Introduce una tarea</div>
+					<form>
+						<div>
+							<label>Nombre de la tarea: </label>
+							<input type="text" id="nombre" placeholder="Nombre de la tarea..." required>
+						</div>				
+						<div>
+							<label>Descripción: </label>
+							<textarea id="descripcion" placeholder="Descripción..." rows="6" required=""></textarea>
+						</div>						
+						<div>
+							<label>Fecha de entrega: </label>
+							<input type="date" id="fecha" required="">
+						</div>
+						<div>
+							<label>Modulo: </label>
+							<select id="modulo">
+								<option value="DIW">DIW</option>
+								<option value="DWEC">DWEC</option>
+								<option value="DWES">DWES</option>
+								<option value="HLC">HLC</option>
+								<option value="DAW">DAW</option>
+							</select>
+						</div>
+						<div>
+							<button id="crear">Crear</button>
+						</div>				
+					</form>
+				</section>
+			</main>
+		</div>
+		<footer>
+			<ul>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#">Avisos Legales</a></li>
+				<li><a href="#">Publicidad</a></li>
+			</ul>
+			<div>
+				<a href="https://facebook.com/"><img src="../img/redsocialf.png"></a>
+				<a href="https://github.com/admateo"><img src="../img/github.png"></a>
+				<a href="https://twitter.com/"><img src="../img/redsocialt.png"></a>
+			</div>	
+		</footer>
+	</div>
+	</body>
+</html>
